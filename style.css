@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Urbanist', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 2rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+#pharmcist-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.862)), url(img/Screenshot\ 2023-06-22\ 141447.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.container-fluid {
+  justify-content: center;
+  align-items: center;
+}
+
+.pt-10 {
+  padding-top: 23%;
+  padding-right: 3rem;
+}
+
+.collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding: 13px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffffbe;
+}
+
+button {
+  font-size: 1.7rem;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.rem;
+}
+
+.dropdown-item:hover {
+  background: #198754;
+  color: #fff;
+}
+
+.custom-shape-divider-bottom-1687338024 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1687338024 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 101px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1687338024 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.bg-main {
+  position: relative;
+}
+
+.col-3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.col-3 i {
+  font-size: 3rem;
+}
+
+/* .hovergrey:hover{
+  color: #92212177;
+} */
+
+.fixed {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.862)), url(img/ani-kolleshi-7jjnJ-QA9fY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.custom-shape-divider-bottom-1687455506 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1687455506 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 95px;
+}
+
+.custom-shape-divider-bottom-1687455506 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.hoverred:hover {
+  color: black;
+}
+.navbar-toggler{
+  outline: 5px #fff;
+  color: #fff;
+}
+.videowrapper{
+  position: absolute;
+
+}
+.videowrapper video{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.vh100{
+  position: relative;
+}
+@media screen and (min-width: 770px) {
+  .col-12.col-lg-12.pt-10.pl-3 {
+    padding-top: 6rem;
+  }
+
+}
+@media screen and (max-width: 700px) {
+  .joginder.container.p-5 a {
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  .col-12.col-lg-12.pt-10.pl-3 {
+    padding-top: 3rem;
+  }
+
+  .vh100 h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {font-size: 1.3rem;
+  line-height: 1.7rem;}
+}
+@media screen and (max-width: 770px) {
+  .col-12.col-lg-12.pt-10.pl-3 {
+    padding-top: 4rem;
+  }
+  .vh100 h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {font-size: 1.1rem;
+  line-height: 1.7rem;}
+}
+/* 
+@media screen and (max-width: 374px) {
+  .col-12.col-lg-12.pt-10.pl-3 h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {font-size: 0.7rem;
+  line-height: 1.4rem;}
+} */
+@media screen and (max-width: 437px) {
+  .container-fluid.vh100 .container{
+    width: 100%;
+  }
+  .col-12.col-lg-12.pt-10.pl-3 {
+    padding-top: 3rem;
+  }
+  .vh100 h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {font-size: 0.9rem;
+  }
+}
+
+
+@media screen and (max-width: 342px) {
+
+  .vh100 h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 500px) {
+.container-fluid.d-flex.d-flex-column.justify-content-center.align-items-center.pt-5.mt-3{
+  padding: 30px;
+}
+}
